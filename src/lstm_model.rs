@@ -336,7 +336,7 @@ fn compute_rmse_vecs(actual: &[f32], predicted: &[f32]) -> f64 {
     mse.sqrt()
 }
 
-   Python Equivalent
+ /*  Python Equivalent
 If you were to write this in Python using PyTorch, it would look like:
 
 import torch
