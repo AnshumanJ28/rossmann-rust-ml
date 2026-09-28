@@ -211,7 +211,7 @@ pub fn apply_mask(df: &DataFrame, mask: &BooleanChunked) -> Result<DataFrame> {
     df.filter(mask).context("Failed to apply mask to DataFrame")
 }
 
-   Python Equivalent
+/*   Python Equivalent
 If you were to write this in Python, it's similar to scikit-learn's
 TimeSeriesSplit, but structured around specific date cutoffs so you don't
 accidentally split a single day in half across different stores:
