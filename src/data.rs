@@ -316,7 +316,7 @@ fn scale_sales(df: DataFrame) -> Result<PreprocessedData> {
     })
 }
 
-   Python Equivalent
+/*   Python Equivalent
 If you were to write this in Python with pandas, it would look like:
 
 import pandas as pd
