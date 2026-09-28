@@ -81,7 +81,7 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-   Python Equivalent
+/*   Python Equivalent
 If you were to write this orchestrator in Python, it would look like this:
 
 if __name__ == "__main__":
